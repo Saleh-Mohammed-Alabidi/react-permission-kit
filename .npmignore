@@ -1,0 +1,23 @@
+# Exclude Node modules
+node_modules/
+tsconfig.json
+babel.config.js
+jest.config.js
+webpack.config.js
+# Exclude build artifacts
+src/
+build/
+.tsbuildinfo
+2
+# Exclude test files
+__tests__/
+*.test.ts
+*.test.js
+
+# Exclude configuration files
+.env
+.DS_Store
+
+# Exclude IDE/editor configuration
+.vscode/
+.idea/

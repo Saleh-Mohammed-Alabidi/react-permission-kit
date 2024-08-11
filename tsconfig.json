@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "jest", "@testing-library/jest-dom"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

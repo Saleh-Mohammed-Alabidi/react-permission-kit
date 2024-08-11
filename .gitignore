@@ -1,0 +1,28 @@
+# Node modules directory
+node_modules/
+
+# Build output directories
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+
+# Dependency directories
+.pnp
+.pnp.js
+
+# IDE/editor configurations
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test coverage reports
+coverage/
