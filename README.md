@@ -41,7 +41,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App'
 import reportWebVitals from './reportWebVitals';
-import {PermissionProvider} from './PermissionProvider'
+import {PermissionProvider} from 'react-permission-kit';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -76,7 +76,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App'
 import reportWebVitals from './reportWebVitals';
-import {PermissionProvider} from './PermissionProvider'
+import {PermissionProvider} from 'react-permission-kit';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -107,7 +107,7 @@ In the following example, the Login component demonstrates how to set user permi
 ```javascript
 // Login.tsx
 import React from "react";
-import { usePermissions } from "../PermissionProvider";
+import { usePermissions } from 'react-permission-kit';
 import { useNavigate } from "react-router-dom";
 
 export const Login = () => {
@@ -202,7 +202,7 @@ In the following example, the Nav component demonstrates how to use hasPermissio
 
 // Nav.tsx
 import React from 'react'
-import { hasPermission } from '../PermissionProvider'
+import { hasPermission } from 'react-permission-kit';
 
 export const Nav = () => {
  

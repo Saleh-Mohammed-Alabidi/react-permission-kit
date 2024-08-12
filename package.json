@@ -1,6 +1,6 @@
 {
   "name": "react-permission-kit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react-permission-kit",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
